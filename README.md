@@ -59,7 +59,7 @@ cd src
 ```
 
 ```python
-python3 core.py
+>>> python3 core.py
 ```
 
 # Testing the project
