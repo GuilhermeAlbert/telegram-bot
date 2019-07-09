@@ -34,23 +34,33 @@ Ext Updater: https://python-telegram-bot.readthedocs.io/en/stable/telegram.ext.u
 
 # Enviroment configuration
 
-Use the commands to install the enviroment:
+Use the commands to install the enviroment. First, install PIP to manage the packages:
+```shell
+sudo apt-get install python-pip3
+```
 
-`sudo apt-get install python-pip3`
+Install the necessary dependencies for project:
+```shell
+pip3 install python-telegram-bot
 
-`pip3 install python-telegram-bot`
-
-`pip3 install -U python-dotenv`
+pip3 install -U python-dotenv
+```
 
 # Project installation
 
-`pip3 install -r requirements.txt`
+```shell
+pip3 install -r requirements.txt
+```
 
 # Runninng the project
 
-`cd src`
+```shell
+cd src
+```
 
-`python3 core.py`
+```python
+python3 core.py
+```
 
 # Testing the project
 
