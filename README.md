@@ -48,17 +48,23 @@ pip3 install -U python-dotenv
 
 # Project installation
 
+Use pip to install the requirements of project:
+
 ```shell
 pip3 install -r requirements.txt
 ```
 
 # Runninng the project
 
+Enter on source folder of project and execute `python3`:
+
 ```shell
 cd src
 
 python3 
 ```
+
+Type `core.py` to execute the program:
 
 ```python
 >>> core.py
