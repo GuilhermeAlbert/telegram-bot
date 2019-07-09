@@ -56,10 +56,12 @@ pip3 install -r requirements.txt
 
 ```shell
 cd src
+
+python3 
 ```
 
 ```python
->>> python3 core.py
+>>> core.py
 ```
 
 # Testing the project
