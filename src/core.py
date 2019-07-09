@@ -1,8 +1,10 @@
+# Importing telegram commands
 from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
 
+# Importing settings
 from conf.settings import TELEGRAM_TOKEN, HTTP_URL
 
-
+# Starts the Telegram BOT
 def start(bot, update):
     response_message = "=^._.^="
     bot.send_message(
@@ -10,7 +12,7 @@ def start(bot, update):
         text=response_message
     )
 
-
+# Get the HTTP CATS API
 def http_cats(bot, update, args):
     bot.sendPhoto(
         chat_id=update.message.chat_id,
@@ -18,6 +20,7 @@ def http_cats(bot, update, args):
     )
 
 
+# Define the Telegram BOT message unknown
 def unknown(bot, update):
     response_message = "Meow? =^._.^="
     bot.send_message(
@@ -26,6 +29,7 @@ def unknown(bot, update):
     )
 
 
+# Define the main method
 def main():
     updater = Updater(token=TELEGRAM_TOKEN)
 
@@ -45,7 +49,10 @@ def main():
 
     updater.idle()
 
-
+# Main commands
 if __name__ == '__main__':
-    print("press CTRL + C to cancel.")
+    print("==========================")
+    print("The server is running! (:")
+    print("Press CTRL + C to cancel.")
+    print("==========================")
     main()
