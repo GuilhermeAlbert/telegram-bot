@@ -3,7 +3,7 @@ certifi==2019.6.16
 cffi==1.12.3
 chardet==3.0.4
 cliapp==1.20170827
-cryptography==2.7
+cryptography==3.2
 enum34==1.1.6
 f.lux-indicator-applet==1.1.11rc0
 future==0.17.1
